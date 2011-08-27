@@ -1,0 +1,29 @@
+dx.js provides a set of classes for conditionally styling based on mobile browser.
+
+USAGE:
+
+The following classes are provided based on the browser:
+
+* dx-android
+* dx-iphone
+* dx-ipad
+* dx-ios
+* dx-mobile
+* dx-desktop
+
+From an html document you can then customize the styling of an element per platform.
+For example, if you have the following in your html:
+
+<div class="message">Join the dark side. We have cookies.</div>
+
+You can style it based on platform like this:
+
+.dx-android .message {
+    display:none;
+}
+.dx-ios {
+    color:red;
+}
+
+In this example the message is hidden from android users and red on ios devices.
+
