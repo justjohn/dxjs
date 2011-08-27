@@ -21,7 +21,7 @@ You can style it based on platform like this:
 .dx-android .message {
     display:none;
 }
-.dx-ios {
+.dx-ios .message {
     color:red;
 }
 
